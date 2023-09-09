@@ -12,12 +12,12 @@ const ProductPage = () => {
   }, []);
 
   return (
-    <section className="flex xl:flex-row flex-col min-h-screen gap-10 max-container xl:padding-l padding-t">
+    <section className="max-container flex max-lg:flex-col padding-x padding-y gap-10 max-sm:py-28">
       <div>
         <img src={imgURL} alt={`${name} shoe`} width={500} height={500} />
       </div>
       <div className="max-w-3xl">
-        <h3 className="mt-2 text-4xl leading-normal font-semibold font-palanquin">
+        <h3 className="mt-2 text-4xl max-sm:text-3xl leading-normal font-semibold font-palanquin">
           {name}
         </h3>
         <p className="mt-2 font-semibold font-montserrat text-coral-red text-2xl leading-normal">
